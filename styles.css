@@ -1,0 +1,286 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    background-image: url(./img/img-fundo-verde.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-position: center;
+}
+
+.img-tenis-verde {
+    width: 100%;
+    height: 100%;
+}
+
+.preco {
+    font-size: 200%;
+    margin-bottom: 10%;
+    margin-top: 76px;
+}
+
+.paragrafo-principal {
+    width: 500px;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+h1 {
+    font-size: 500%;
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.div-left {
+    margin-left: 8%;
+    margin-top: -2%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.button-main {
+    border: none;
+    background: #a3be52;
+    cursor: pointer;
+    width: 205px;
+    height: 42px;
+    border-radius: 20px;
+    transition: 0.5s;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    font-size: 16px;
+}
+
+.button-main:hover {
+    opacity: 0.8;
+}
+
+.button-main:active {
+    opacity: 0.3;
+}
+
+.tenis-button {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    
+}
+
+.tenis-verde {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rgb(124, 124, 124);
+    background: #ccee66;
+    cursor: pointer;
+}
+
+.tenis-rosa {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rgb(124, 124, 124);
+    background: #ff9eb5;
+    cursor: pointer;
+}
+
+
+
+.tenis-azul {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid rgb(124, 124, 124);
+    background: #58cced;
+    cursor: pointer;
+}
+
+.div-tenis-nike {
+    position: absolute;
+    unicode-bidi: isolate;
+    margin-left: 45%;
+    margin-top: 7%;
+    
+}
+
+.tenis-nike {
+    width: 800px;
+    transform: rotate(-25deg);
+    filter: drop-shadow(36px 45px 40px #161616);
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.sobe {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.desce {
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1750px) {
+    h1 {
+        font-size: 50px;
+        max-width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .paragrafo-principal {
+        font-size: 12px;
+        width: 350px;
+    }
+
+    .tenis-verde {
+        width: 60px;
+        height: 60px;
+    }
+    .tenis-rosa {
+        width: 60px;
+        height: 60px;
+    }
+    .tenis-azul {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tenis-button {
+        width: 225px;
+    }
+
+    .div-tenis-nike {
+        margin-left: 40%;
+        margin-bottom: 120px;
+    }
+
+    .tenis-nike {
+        width: 500px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1330px) {
+    main {
+        width: 150%;
+        height: 150%;
+    }
+    .paragrafo-principal {
+        font-size: 30px;
+        width: 600px;
+    }
+
+    .preco {
+        font-size: 50px;
+    }
+
+    h1 {
+        font-size: 80px;
+        width: 10px;        
+    }
+
+    .tenis-verde {
+        width: 80px;
+        height: 80px;
+    }
+    .tenis-rosa {
+        width: 80px;
+        height: 80px;
+    }
+    .tenis-azul {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tenis-button {
+        width: 300px;
+    }
+
+    .div-tenis-nike {
+        margin-left: 70%;
+        margin-bottom: 120px;
+        margin-top: 30%;
+    }
+
+    .tenis-nike {
+        width: 60vw;
+    }
+
+    .button-main {
+        width: 250px;
+        height: 60px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 730px) {
+    main {
+        background-image: url(./img/img-fundo-verde-mobile.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        display: block;
+    }
+
+    .paragrafo-principal {
+        width: 400px;
+        font-size: 15px;
+    }
+
+    h1 {
+        width: 200px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .preco {
+        font-size: 30px;
+    }
+
+    .div-left {
+        margin: 0;
+        align-items: center;
+    }
+
+    .div-tenis-nike {
+        position: fixed;
+        bottom: 100px;
+        display: flex;
+        margin: 0;
+    }
+}
