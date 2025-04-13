@@ -276,15 +276,15 @@ h1 {
     }
 
     .div-tenis-nike {
-        position: relative;
+        display: contents;
         margin: 0;
-        margin-top: 30%;
     }
     .button-main {
         margin-bottom: 10px;
     }
     .tenis-nike {
         width: 350px;
-        margin-bottom: 30%;
+        margin-bottom: 20%;
+        margin-top: 15%;
     }
 }
