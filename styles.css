@@ -286,6 +286,7 @@ h1 {
         width: 350px;
         margin-bottom: 20%;
         margin-top: 15%;
-        filter: drop-shadow(10px 10px 15px #161616);
+        filter: none;
+        box-shadow: 5px 5px 10px rgba(22, 22, 22, 0.4);
     }
 }
